@@ -3,7 +3,7 @@ import turtle
 from tkinter import Entry
 
 window = tk.Tk()
-window.title("MY FIRST GUI PROGRAM")
+window.title("MY FIRST GUI PROGRAMMING")
 window.minsize(width=500, height=300)
 
 # Label
