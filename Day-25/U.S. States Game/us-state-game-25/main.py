@@ -17,7 +17,7 @@ guessed_states=[]
 
 while len(guessed_states)<50:
     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 states correct",
-                                    prompt="what's another state's name?").title()
+                                    prompt="what is another state's name?").title()
     if answer_state == "Exit":
         # HERE USING LIST COMPREHENSION
 
