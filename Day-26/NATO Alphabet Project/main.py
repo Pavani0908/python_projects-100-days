@@ -4,7 +4,7 @@
 
 import pandas
 
-data = pandas.read_csv("nato_phonetic_alphabet.csv")
+data = pandas.read_csv("../nato_phonetic_alphabet.csv")
 
 phonetic_dic = {row.letter:row.code for (index, row) in data.iterrows()}
 print(phonetic_dic)
