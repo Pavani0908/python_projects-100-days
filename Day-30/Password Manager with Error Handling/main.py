@@ -5,7 +5,7 @@ try:
 
 except FileNotFoundError:
     file = open("a_file.txt", "w")
-    file.write("Something")
+    file.write("This is My File")
 except KeyError as error_message:
     print(f"The key {error_message} does not exit.")
 
